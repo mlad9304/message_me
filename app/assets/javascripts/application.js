@@ -15,3 +15,7 @@
 //= require activestorage
 //= require semantic-ui
 //= require_tree .
+
+$(document).ready(function() {
+    $('.ui.dropdown').dropdown();
+});
